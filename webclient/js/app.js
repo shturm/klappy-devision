@@ -1,8 +1,8 @@
 
 angular.module('KlappyBird', [])
 	.service('ScoreService', ['$http', function($http){
-		var getUrl = 'http://localhost/devision/webapi/public/data',
-			postUrl= 'http://localhost/devision/webapi/public/highscore';
+		var getUrl = '../webapi/public/data',
+			postUrl= '../webapi/public/highscore';
 
 		return {
 			getData: function function_name(argument) {
